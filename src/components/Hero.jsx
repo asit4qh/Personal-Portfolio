@@ -1,8 +1,7 @@
 import React from 'react';
+import heroImg from '../assets/profile_pc.jpeg';
 
 const Hero = () => {
-  const heroImageUrl = "/src/assets/profile_pc.jpeg";
-
   return (
     <section className="pt-28 pb-16 md:pt-32 min-[980px]:pt-48 min-[980px]:pb-32 flex flex-col md:flex-row items-center justify-between gap-6 min-[980px]:gap-12">
       
@@ -15,7 +14,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-sm sm:text-base md:text-sm min-[980px]:text-lg max-w-2xl mb-6 min-[980px]:mb-10 px-2 md:px-0 text-slate-400">
-          Hi, I'm Asit. I design and build reliable systems that solve real problems. Clean code, practical thinking, and continuous improvement drive my work. Based in Delhi NCR, turning ideas into functional code.
+          Hi, I'm Akhil. I build clean, fast, and responsive user interfaces. Based in Delhi NCR, turning ideas into functional code.
         </p>
         
         <div className="flex flex-wrap justify-center md:justify-start gap-3 w-full px-2 md:px-0">
@@ -33,8 +32,8 @@ const Hero = () => {
           <div className="absolute -inset-4 bg-linear-to-r from-cyan-600/20 to-teal-600/20 rounded-full blur-3xl opacity-70"></div>
           
           <img 
-            src={heroImageUrl} 
-            alt="Akhil - Frontend Developer"
+            src={heroImg} 
+            alt="Asit - Frontend Developer"
             className="relative w-56 h-56 min-[980px]:w-87.5 min-[980px]:h-87.5 object-cover rounded-3xl border-2 border-slate-800 shadow-2xl shadow-cyan-500/10"
           />
         </div>
