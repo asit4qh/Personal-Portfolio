@@ -17,7 +17,7 @@ const Navbar = () => {
             className="w-9 h-9 rounded-full object-cover border border-slate-700"
           />
           <div className="text-xl font-bold text-slate-100 tracking-tight">
-            Akhil<span className="text-cyan-500">.dev</span>
+            Jha<span className="text-cyan-500">Asit Ankur</span>
           </div>
         </div>
         
